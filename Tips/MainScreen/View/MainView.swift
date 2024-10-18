@@ -72,7 +72,7 @@ struct MainView: View {
                     Text("The total amount per person:")
                         .font(.system(size: 21))
                         .bold()
-                    Text("\(viewModel.totalPerPerson, specifier: "%.2f")₽")
+                    Text("\(viewModel.totalPerPerson, specifier: "%.2f")$")
                         .font(.system(size: 50))
                         .bold()
                         .foregroundStyle(.pink)
