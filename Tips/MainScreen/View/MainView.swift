@@ -7,6 +7,7 @@ import SwiftUI
 struct MainView: View {
     
     @StateObject private var viewModel = MainViewModel()
+    @EnvironmentObject private var appViewModel: AppViewModel
     @FocusState private var focusedField: Int?
     @State private var selectedItemIndex: Int?
     
@@ -16,8 +17,10 @@ struct MainView: View {
     var body: some View {
         ScrollView {
             // MARK: Back button
-            BackButtonView()
-                .padding(.leading)
+            BackButtonView {
+                appViewModel.isLogin = false
+            }
+            .padding(.leading)
             
             LazyVStack {
                 // MARK: Main Icon

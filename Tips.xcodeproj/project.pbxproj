@@ -18,6 +18,7 @@
 		4264AE112C5FF6E000746CEE /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4264AE102C5FF6E000746CEE /* LoginTextField.swift */; };
 		4264AE132C5FFA1500746CEE /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4264AE122C5FFA1500746CEE /* GradientView.swift */; };
 		427FF3162C85AFD900E78912 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 427FF3152C85AFD900E78912 /* .gitignore */; };
+		428A03AF2CD24D21007D3D88 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A03AE2CD24D21007D3D88 /* AppViewModel.swift */; };
 		4295872D2C66CA4600CC021D /* Percent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4295872C2C66CA4600CC021D /* Percent.swift */; };
 		42ADE9E92C63A04700DA9D6C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ADE9E82C63A04700DA9D6C /* MainViewModel.swift */; };
 		42E599B72C81C93E00453DD5 /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E599B62C81C93E00453DD5 /* PercentView.swift */; };
@@ -37,6 +38,7 @@
 		4264AE102C5FF6E000746CEE /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		4264AE122C5FFA1500746CEE /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		427FF3152C85AFD900E78912 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		428A03AE2CD24D21007D3D88 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		4295872C2C66CA4600CC021D /* Percent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Percent.swift; sourceTree = "<group>"; };
 		42ADE9E82C63A04700DA9D6C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		42E599B62C81C93E00453DD5 /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				4264ADFE2C5FF2CB00746CEE /* TipsApp.swift */,
+				428A03AE2CD24D21007D3D88 /* AppViewModel.swift */,
 				42461D122C62DD8F00CF5A92 /* Subviews */,
 				42461D0E2C62DD2000CF5A92 /* LoginScreen */,
 				42461D102C62DD6000CF5A92 /* MainScreen */,
@@ -254,6 +257,7 @@
 				4264AE012C5FF2CB00746CEE /* LoginView.swift in Sources */,
 				4264AE0D2C5FF32F00746CEE /* MainView.swift in Sources */,
 				42461D0B2C62CD9200CF5A92 /* CountButton.swift in Sources */,
+				428A03AF2CD24D21007D3D88 /* AppViewModel.swift in Sources */,
 				4295872D2C66CA4600CC021D /* Percent.swift in Sources */,
 				4264AE132C5FFA1500746CEE /* GradientView.swift in Sources */,
 				42461D0D2C62DA2200CF5A92 /* TotalTextField.swift in Sources */,

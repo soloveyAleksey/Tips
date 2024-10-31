@@ -3,10 +3,12 @@ import SwiftUI
 struct BackButtonView: View {
     
     @Environment(\.dismiss) private var dismiss
+    let action: () -> ()
     
     var body: some View {
         HStack {
             Button(action: {
+                action()
                 dismiss()
             }) {
                 Image(systemName: "arrow.uturn.backward")

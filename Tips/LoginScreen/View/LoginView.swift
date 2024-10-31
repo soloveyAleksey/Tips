@@ -7,6 +7,7 @@ import SwiftUI
 struct LoginView: View {
     
     @StateObject private var viewModel = LoginViewModel()
+    @EnvironmentObject private var appViewModel: AppViewModel
     
     private let screenWidth = UIScreen.main.bounds.width
     
@@ -35,7 +36,10 @@ struct LoginView: View {
                         header: viewModel.passwordHeader,
                         isSecure: true)
                     
-                    NavigationLink(destination: MainView()) {
+                    NavigationLink(destination: MainView()
+                        .onAppear {
+                            appViewModel.isLogin = true
+                    }) {
                         ZStack {
                             Rectangle()
                                 .frame(width: screenWidth * 0.4, height: 40)
